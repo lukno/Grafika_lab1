@@ -32,7 +32,7 @@ public class Transforms2D extends JPanel {
 			}
 			if(whichTransform == 2)
 			{
-				g2.rotate(45);
+				g2.rotate(Math.PI/4);
 				g2.setPaint(Color.red);
 				g2.drawPolygon(polygon);
 				g2.fill(polygon);
@@ -40,7 +40,7 @@ public class Transforms2D extends JPanel {
 			}
 			if(whichTransform == 3)
 			{
-				g2.rotate(90);
+				g2.rotate(Math.PI/2);
 				g2.setPaint(Color.red);
 				g2.drawPolygon(polygon);
 				g2.fill(polygon);
@@ -63,7 +63,7 @@ public class Transforms2D extends JPanel {
 			if(whichTransform == 6)
 			{
 				g2.setPaint(Color.red);
-				g2.rotate(45);
+				g2.rotate(Math.PI/4);
 				g2.scale(0.5, 1.5);
 				g2.drawPolygon(polygon);
 				g2.fill(polygon);
@@ -71,7 +71,7 @@ public class Transforms2D extends JPanel {
 			if(whichTransform == 7)
 			{
 				g2.setPaint(Color.red);
-				g2.rotate(90);
+				g2.rotate(Math.PI/2);
 				g2.drawPolygon(polygon);
 				g2.fill(polygon);
 			}
